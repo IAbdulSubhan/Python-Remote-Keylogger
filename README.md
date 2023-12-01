@@ -19,9 +19,9 @@ This Python Remote Keylogger is designed for educational purposes to demonstrate
    pip install pyinstaller
 Use the following command to convert the Python script into an executable file. Replace desired_name with your preferred name and filename.py with the name of your Python script.
 
-bash
-Copy code
-pyinstaller --onefile --noconsole --name desired_name filename.py
+    ```bash
+   pyinstaller --onefile --noconsole --name desired_name filename.py
+
 ## Configuration
 Before using the email sending functionality, configure the Gmail account:
 
